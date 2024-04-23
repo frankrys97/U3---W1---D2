@@ -3,7 +3,8 @@ import "./App.css";
 import MyNavbar from "./components/MyNavbar.jsx";
 import MyFooter from "./components/MyFooter.jsx";
 import Welcome from "./components/Welcome.jsx";
-import AllBooks from "./components/AllBooks.jsx";
+// import AllBooks from "./components/AllBooks.jsx";
+import AllBooks2 from "./components/AllBooks2.jsx";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       </header>
       <main>
         <Welcome brand="EpiBooks" />
-        <AllBooks />
+        {/* <AllBooks /> */}
+        <AllBooks2 />
       </main>
       <MyFooter name="EpiBooks"> </MyFooter>
     </div>
