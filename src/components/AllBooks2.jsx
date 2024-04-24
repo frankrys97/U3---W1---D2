@@ -75,7 +75,7 @@ class AllBooks2 extends React.Component {
         <Row xs={1} sm={2} md={3} lg={4} className="g-4">
           {searchedBook.map((book) => (
             <Col key={`book-${book.asin}`}>
-              <Card className="h-100">
+              <Card className="h-100 card">
                 <Card.Img
                   variant="top"
                   src={book.img}

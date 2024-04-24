@@ -41,3 +41,8 @@
   aspect-ratio: 16 / 9;
   object-fit: cover;
 }
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
